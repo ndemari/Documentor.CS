@@ -16,7 +16,7 @@ namespace Documentor.CS
         private StreamReader inFile;
         public List<FileInfo> fileDoc = new List<FileInfo>();
         public List<FileInfo> filePdf = new List<FileInfo>();
-        public string filePath;
+        public string filePath = "";
 
         public void FileCreate(string fileName)
         {
